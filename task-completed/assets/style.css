@@ -1,0 +1,48 @@
+.navbar {
+  padding-top: 40px;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+section {
+  overflow: hidden;
+}
+
+* {
+  color: white !important;
+}
+
+.header-hero {
+  margin-top: 100px;
+}
+
+.site-title {
+  font-size: 50px;
+  text-transform: uppercase;
+  margin-bottom: 35px;
+}
+
+.trial-form {
+  margin-top: 50px;
+  padding-bottom: 90px;
+}
+
+.form-title {
+  margin-bottom: 20px;
+}
+
+.header-section {
+  background-image: url(bg.jpg);
+  background-repeat: no-repeat;
+}
+
+@media (max-width: 600px) {
+  .site-title {
+    font-size: 30px ;
+  }
+  input[type='submit']{
+    width: 93%;
+    margin: auto;
+  }
+}
+/*# sourceMappingURL=style.css.map */
